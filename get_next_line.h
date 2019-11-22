@@ -6,7 +6,7 @@
 /*   By: amartin- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/04 13:04:20 by amartin-          #+#    #+#             */
-/*   Updated: 2019/11/18 18:13:00 by amartin-         ###   ########.fr       */
+/*   Updated: 2019/11/22 18:30:41 by amartin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ int		get_next_line(int fd, char **line);
 size_t	ft_strlen(const char *s);
 char	*ft_strdup(const char *s1);
 char	*ft_strchr(const char *s, int c);
-char	*ft_strjoin(char *s1, char *s2);
-char	*ft_substr(const char *s, unsigned int start, size_t len);
+char	*gnl_ft_strjoin(char **s1, char *s2);
+char	*ft_substr(char *s, unsigned int start, size_t len);
 char	*gnl_save_line(char *str, char **line);
 char	*gnl_cut_str(char *str);
 char	*gnl_final_str(char *str);

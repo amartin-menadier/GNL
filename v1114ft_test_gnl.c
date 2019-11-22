@@ -6,7 +6,7 @@
 /*   By: hbaudet <hbaudet@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/09 13:44:55 by hbaudet           #+#    #+#             */
-/*   Updated: 2019/11/18 19:00:30 by amartin-         ###   ########.fr       */
+/*   Updated: 2019/11/22 15:35:16 by amartin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ int	main(int ac, char *av[])
 		while ((gnl = (get_next_line(0, ptr))) == 1)
 		{
 			printf("lecture en cours :\t%d%s\n", gnl, line);
-				free(line);
+			free(line);
 		}
 		printf("derniere ligne :\t%d%s", gnl, line);
 		free(line);
